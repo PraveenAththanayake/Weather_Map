@@ -1,0 +1,31 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif !important;
+}
+
+.flexCenter {
+  @apply flex justify-center items-center;
+}
+
+.flexBetween {
+  @apply flex justify-between items-center;
+}
+
+.map_path {
+  fill: rgba(22, 163, 74, 0.7);
+  stroke: #1c1a1a;
+  stroke-width: 4px;
+  transition: fill 0.3s;
+}
+
+.map_path:hover {
+  fill: #16a34a;
+}
+
+.map_path.active {
+  fill: rgba(22, 163, 74, 0.7);
+}
