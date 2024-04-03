@@ -8,16 +8,16 @@
 }
 
 .flexCenter {
-  @apply flex justify-center items-center;
+  @apply flex items-center justify-center;
 }
 
 .flexBetween {
-  @apply flex justify-between items-center;
+  @apply flex items-center justify-between;
 }
 
 .map_path {
-  fill: rgba(22, 163, 74, 0.7);
-  stroke: #1c1a1a;
+  fill: #7adfa9;
+  stroke: #ffff;
   stroke-width: 4px;
   transition: fill 0.3s;
 }
